@@ -20,6 +20,8 @@ body {
 	background-color: white;
 }
 
+
+
 #container {
     width: 930px;
     border-width: 1px;
@@ -99,9 +101,20 @@ figcaption {
 
 aside {
     width: 200px;
-    margin: 0 5px 0 32px;
+    margin: 0 5px 0 20px;
     padding: 10px;
     float: left;
+}
+
+img#cluttered-desk{
+	display: block;
+	width: 400px;
+	margin: 75px 150px 0 0px;
+	padding: 10px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 aside p {
@@ -160,4 +173,14 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+table,th,td{
+	border: 1px solid;
+	border-collapse: collapse;
+	margin: 40px 0px;
+}
+
+td{
+	text-align: center;
 }
