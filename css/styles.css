@@ -3,7 +3,7 @@
    sample start file for final project - educational use only
    
    Author:   Ashlyn Davis
-   Date:     11/9/2026
+   Date:     11/22/2026
    
   
 
@@ -42,6 +42,11 @@ header {
 	flex-direction: column;
 }
 
+header img {
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
 nav {
     margin: 0 5px 0 5px; 
     padding: 25px 10px 0 10px;
@@ -52,6 +57,9 @@ nav {
 nav ul {
     font-weight: bold;
     list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 1.4em;
 }
 
 nav ul li a {
@@ -71,7 +79,7 @@ nav ul li a:hover {
     width: 446px;
     padding: 10px;
     float: left;
-	color: rgb(0,0,46);
+	color: rgb(3,21,128);
     border-right: 2px solid;    
 }
 
@@ -85,6 +93,12 @@ nav ul li a:hover {
 
 #main p:last-of-type {
 	margin-bottom: 10px;
+}
+
+iframe{
+	display: flex;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 figure{
@@ -115,6 +129,16 @@ img#cluttered-desk{
 	margin-left: auto;
 	margin-right: auto;
 	
+}
+
+img#cluttered-papers{
+	display: block;
+	width: 400px;
+	margin: 30px 175px 0px 0px;
+	padding: 10px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 aside p {
