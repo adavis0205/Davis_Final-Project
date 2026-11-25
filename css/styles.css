@@ -113,6 +113,29 @@ figcaption {
 	width: 100%
 }
 
+input{
+	width: 100%;
+	padding: 5px;
+	margin: 2px 0;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	background-color: rgb(3,21,128);
+	color: white;
+	padding: 12px 20px;
+	border: 2px;
+	border-color: black;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+input[name="request"]{
+	width: 100%;
+	height: 80px;
+}
+
 aside {
     width: 200px;
     margin: 0 5px 0 20px;
@@ -135,6 +158,16 @@ img#cluttered-papers{
 	display: block;
 	width: 400px;
 	margin: 30px 175px 0px 0px;
+	padding: 10px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#cork-board{
+	display: block;
+	width: 400px;
+	margin: 30px 200px 0px 0px;
 	padding: 10px;
 	float: left;
 	margin-left: auto;
@@ -168,9 +201,9 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: lightgray;
     clear: both;
-    color: wheat;
+    color: rgb(0,0,122);
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -185,7 +218,7 @@ footer {
 	border-right: 2px solid;
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: rgb(0,0,122);
     text-decoration: none;
 }
 
